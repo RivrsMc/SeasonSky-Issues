@@ -14,6 +14,8 @@ body:
       options:
         - label: "J'ai bien vérifié si le bug a déjà été report"
           required: true
+        - label: "Le bug que je report n'est pas un bug de duplication (discord ticket pour cela)"
+          required: true
   - type: input
     id: pseudo
     attributes:
@@ -71,11 +73,11 @@ body:
       label: 'Screen / vidéo'
       description: 'Le cas échéant, ajoutez des captures d''écran et/ou vidéos pour expliquer votre problème'
     validations:
-      required: false  
+      required: false
   - type: textarea
     id: more-info
     attributes:
       label: 'Information supplémentaire'
       description: 'Ajoutez ici tout autre contexte relatif au problème.'
     validations:
-      required: false      
+      required: false
