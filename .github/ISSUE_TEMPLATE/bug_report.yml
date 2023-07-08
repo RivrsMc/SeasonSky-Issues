@@ -2,8 +2,8 @@ name: Report de bug
 description: Report un bug du serveur
 title: "[BUG] "
 labels: 
-  - bug
-  - nouveau
+  - Bug
+  - Nouveau
 assignees: []
 
 body:
