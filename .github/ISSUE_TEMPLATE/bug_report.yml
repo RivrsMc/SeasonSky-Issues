@@ -63,10 +63,18 @@ body:
       label: Serveur
       description: Sur quel serveur est-ce arrivé ?
       options:
-        - Spawn
-        - Hub
-        - Island
-        - Proxy
+        - spawn01
+        - spawn02
+        - spawn03
+        - spawn04
+        - spawn05
+        - island01
+        - island02
+        - island03
+        - island04
+        - island05
+        - proxy
+        - hub
   - type: textarea
     id: video-screen
     attributes:
