@@ -55,26 +55,13 @@ body:
       label: Date et heure de la production du bug
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: server
     validations:
       required: true
     attributes:
       label: Serveur
       description: Sur quel serveur est-ce arrivé ?
-      options:
-        - spawn01
-        - spawn02
-        - spawn03
-        - spawn04
-        - spawn05
-        - island01
-        - island02
-        - island03
-        - island04
-        - island05
-        - proxy
-        - hub
   - type: textarea
     id: video-screen
     attributes:
