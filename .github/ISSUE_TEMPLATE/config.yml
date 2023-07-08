@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Signaler les bugs et les exploits liés à la duplication
+    url: https://github.com/RivrsMc/SeasonSky-Issues/security/policy
+    about: NE PAS SIGNALER LES BUGS DE DUPLICATION SUR GITHUB!
+  - name: Notre discord
+    url: https://discord.gg/seasonsky
+    about: Le discord du serveur SeasonSky
